@@ -32,6 +32,4 @@
 
 * Ángel Muñoz
 
-## License
-
-Este proyecto será eliminado en los próximos días
+*Este proyecto será eliminado en los próximos días*
