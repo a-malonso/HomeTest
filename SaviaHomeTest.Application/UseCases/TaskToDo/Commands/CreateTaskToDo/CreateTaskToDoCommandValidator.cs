@@ -14,9 +14,7 @@ public class CreateTaskToDoCommandValidator : AbstractValidator<CreateTaskToDoCo
         RuleFor(x => x.Priority)
             .IsInEnum().WithMessage("Priority value is not valid");
 
-        //RuleFor<bool>(x => x.IsDone)
-        //    .NotEmpty()
-        //    .NotNull()
-        //    .WithMessage("IsDone must have a value");
+        RuleFor(x => x.IsDone)
+            .NotNull().WithMessage("IsDone cannot be null");
     }
 }
